@@ -21,7 +21,7 @@ function showCart() {
 // let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 // Add item
-function addToCart(name, price){
+function addtocart(name, price){
 
   //Get the logged in user
     let user = localStorage.getItem("loginUser");
